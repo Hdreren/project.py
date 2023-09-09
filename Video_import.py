@@ -8,8 +8,8 @@ Video_Name = "File path"
 cap = cv2.VideoCapture(Video_Name)
 
 #Get video features
-print("height:", int(cap.get(3)))  # Video height
-print("compatibility:", int(cap.get(1)))  # Video compatibility
+print("height:", int(cap.get(3))) #Video height
+print("compatibility:", int(cap.get(1))) #Video compatibility
 
 #give an error message if the video does not open
 if not cap.isOpened():
