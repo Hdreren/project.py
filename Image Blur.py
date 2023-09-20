@@ -12,7 +12,7 @@ plt.figure(), plt.imshow(img), plt.axis("off"), plt.title("original"), plt.show(
 
 #Average Blurring Method
 dst2 = cv2.blur(img, ksize = (3,3))
-plt.figure(), plt.imshow(dst2), plt.axis("off"), plt.title("avarage blur"), plt.show()
+plt.figure(), plt.imshow(dst2), plt.axis("off"), plt.title("average blur"), plt.show()
 
 
 
